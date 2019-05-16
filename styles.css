@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.siteTitle {
+  border-bottom: 4px solid #ff0084;
+  background: #85e9be;
+  padding: 1%;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  border: 1px solid blue;
+}
+
+.mainText {
+  font-size: 2.5em;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  border: 5px solid #85e9be;
+  background-color: #ff0084;
+  color: white;
+  font-size: 2em;
+  height: 60px;
+  width: 300px;
+}
+
+.btn:hover {
+  background-color: #85e9be;
+  color: black;
+}
+
+.btn-caption {
+  color: #ff0084;
+  font-size: 2em;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+}
